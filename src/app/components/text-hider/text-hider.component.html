@@ -1,0 +1,30 @@
+<div class="row">
+    <div class="col-6">
+        <form>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" [(ngModel)]="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="dni">DNI</label>
+                <input type="text" class="form-control" id="dni" placeholder="Enter DNI" [(ngModel)]="dni" name="dni">
+            </div>
+            <div class="form-group">
+                <label for="creditCard">Tarjeta de crédito</label>
+                <input type="text" class="form-control" id="creditCard" placeholder="Enter credit card number" [(ngModel)]="creditCard" name="creditCard">
+            </div>
+        </form>
+    </div>
+    <div class="col-6 align-content-center">
+        <ul class="list-group">
+            <li class="list-group-item">
+            Email: {{ email | ocultar : 1 }}
+            </li>
+            <li class="list-group-item">
+            DNI: {{ dni | ocultar : 2 }}
+            <li class="list-group-item">
+            Tarjeta de crédito: {{ creditCard | ocultar : 3 }}
+            </li>
+        </ul>
+    </div>
+</div>

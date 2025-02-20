@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="col-6">
+        <form>
+            <div class="form-group">
+                <label for="numero">Número:</label>
+                <input type="number" class="form-control" id="numero" placeholder="Introduce un número" [(ngModel)]="numero" name="numero">
+            </div>
+        </form>
+    </div>
+    <div class="col-6 align-content-end">
+        <ul class="list-group">
+            <li class="list-group-item">
+            Número abreviado: {{ numero | abreviar }}
+            </li>
+        </ul>
+    </div>
+</div>
