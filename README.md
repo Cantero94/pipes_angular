@@ -1,7 +1,7 @@
 # Enunciado de Pipes Personalizados en Angular
 A continuación se describen varios **Pipes** de ejemplo para Angular.
 
-Enlace del proyecto desplegado [aquí](https://cantero94-pipesangular.netlify.app/).
+[Enlace del proyecto desplegado aquí](https://cantero94-pipesangular.netlify.app/).
 
 ---
 
